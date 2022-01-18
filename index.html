@@ -1,16 +1,33 @@
 <html>
 <head>
+ <meta name="robots" content="noindex">
  <link rel="stylesheet" href="https://use.typekit.net/jbu5hzs.css">
+ <script>
+  (function(d) {
+    var config = {
+      kitId: 'kxv1tsb',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
  <style>
   h1.example {
    font-family: kansasnew, serif;
    font-weight: 500;
    font-style: normal;
   }
+  h1.example-chinese {
+   font-family: ar-weibeib5, sans-serif;
+   font-weight: 700;
+   font-style: normal;
+  }
  </style>
 </head>
 <body>
   <h1 class="example">This is Adobe Font</h1>
+  <h1 class="example-chinese">雅虎香港新聞提供各類最新焦點及熱門新聞。</h1>
   <h1>This is system font</h1>
   <p>Welcome to my website!</p>
   <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
